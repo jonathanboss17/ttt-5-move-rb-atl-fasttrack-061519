@@ -9,7 +9,7 @@ board = Array.new(9)
 puts "Welcome to Tic Tac Toe!"
 
 puts "Where would you like to go?"
-input = gets
+input = gets.strip
 num = input_to_index(input)
 
 
