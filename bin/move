@@ -8,5 +8,5 @@ puts "Welcome to Tic Tac Toe!"
 
 board = Array.new(9)
 
-input_to_index
-move(
+move(board, input_to_index, char) 
+display_board(board)
