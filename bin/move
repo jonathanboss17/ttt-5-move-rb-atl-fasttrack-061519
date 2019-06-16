@@ -14,5 +14,5 @@ index = input_to_index(input)
 
 
 
-move(board, num, char) 
+move(board, index, char) 
 display_board(board)
