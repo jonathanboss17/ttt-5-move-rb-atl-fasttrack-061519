@@ -10,9 +10,9 @@ puts "Welcome to Tic Tac Toe!"
 
 puts "Where would you like to go?"
 input = gets
-input_to_index(input)
+num = input_to_index(input)
 
 
 
-move(board, input_to_index, char) 
+move(board, num, char) 
 display_board(board)
